@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bebas+Neue&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Mate+SC&family=Nerko+One&display=swap');
+*{
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    background: linear-gradient(-70deg, #03005e, #8b78c4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.img-hea{
+    height: 100px;
+    width: 250px;
+    padding-left: 10px;
+}
+.nav-home{
+    display: flex;
+    align-items: center;
+}
+.nav__list{
+    padding-left: 250px;
+}
+.nav__item{
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav__links{
+    color: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 12px;
+}
+.nav__links:hover{
+    background-color: #8b78c4;
+    border-radius: 20px;
+    padding: 12px;
+    transition: background-color 1.5s;
+    color: #333;
+}
+.links--cv{
+    border: 1px solid #069948;
+    border-radius: 20px;
+    background-color: #c79814;
+    padding: 15px;
+    color: #f6f5f5;
+    margin-left: 70px;
+}
+.links--cv:hover{
+    background-color: #00f55e;
+    color: #333;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+.img-perfil{
+    width: 500px;
+    height: 400px;
+}
+.img-user{
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.container-inform{
+    padding-left: 80px;
+    font-size: 25px;
+    color: #ddd;
+}
+.container-inform p{
+    color: #030303;
+    font-size: 20px;
+    padding-right: 200px;
+}
+.title{
+    text-align: center;
+    padding: 150px;
+    color: #ddd;
+    font-size: 30px;
+}
+.cards-azul, .cards-rojo{
+    background: rgb(28, 32, 153);
+    width: 400px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    margin-left: 100px;
+    color: aliceblue;
+}
+.cards-azul h3{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.cards-azul p{
+    padding: 20px;
+
+}
+footer{
+    position: absolute;
+    padding: 50px 0;
+    font-size: 14px;
+    background-color: #333;
+    color: #ddd;
+    width: 100%;
+}
